@@ -6,6 +6,7 @@ LOCAL_CFLAGS += -fPIC -std=c99
 LOCAL_LDFLAGS += -fPIC 
 LOCAL_LDLIBS := -llog
 
+LOCAL_C_INCLUDES := $(LOCAL_PATH)
 LOCAL_MODULE    := auto_record
 LOCAL_SRC_FILES := auto_record.c
 
