@@ -10,7 +10,7 @@
 #include <stdbool.h>  // standard boolean types and values library
 #include <unistd.h>   // miscellaneous symbolic constants and types library
 #include <dlfcn.h>    // dynamic linking library
-#include "ar.h"       // automatic recording library
+#include "auto_record.h"       // automatic recording library
 
 
 uint32_t retrieve_timer(void *this)  // retrieve the timer function from the library
