@@ -1,6 +1,0 @@
-Package: tweak-enable-debug-menu
-Version: 0.1.5
-Maintainer: Joonas Trussmann <joonas@batman.ee>
-Description: Enable DJI debug menu on Goggles
-Architecture: pigeon-glasses
-Depends: wtfos-modloader

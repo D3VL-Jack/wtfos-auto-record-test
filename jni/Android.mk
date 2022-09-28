@@ -6,7 +6,7 @@ LOCAL_CFLAGS += -fPIC -std=c99
 LOCAL_LDFLAGS += -fPIC 
 LOCAL_LDLIBS := -llog
 
-LOCAL_MODULE    := enable_debug_menu
-LOCAL_SRC_FILES := enable_debug_menu.c
+LOCAL_MODULE    := auto_record
+LOCAL_SRC_FILES := auto_record.c
 
 include $(BUILD_SHARED_LIBRARY)

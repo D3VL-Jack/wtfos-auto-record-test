@@ -92,7 +92,6 @@ jobs:
         run: |
           export PATH=$ANDROID_NDK_HOME:$PATH
           make ipk
-          make tweaks
 
       - name: Upload release artifacts
         uses: actions/upload-artifact@v2
